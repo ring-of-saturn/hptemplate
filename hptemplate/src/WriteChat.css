@@ -1,0 +1,37 @@
+.chat-input{
+margin-top: 20px;
+ width: 480px;   
+ display: flex;
+ justify-content: space-between;
+ background-color: #fafafa;
+ padding: 18px;
+}
+
+.sender-toggle{
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+  }
+
+
+
+.chat-input input{
+    margin: 0 12px;
+    flex: 1;
+    border: none;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+  }
+
+.chat-input button{
+    width: 60px;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    background-color: #383838;
+    color: #fafafa;
+    font-weight: 500;
+}

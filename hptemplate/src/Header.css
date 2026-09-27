@@ -12,6 +12,7 @@ ul,li{
     padding: 26px; 
     display: flex;
     justify-content: space-between;
+    width: 720px;
 }
 
 .header .player{

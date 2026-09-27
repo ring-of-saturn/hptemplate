@@ -9,11 +9,21 @@
     background-color: #FAFAFA;
     border-radius: 14px;
     font-size: 14px;
+    overflow-y: auto;       /* 세로로 넘칠 때 스크롤 가능하게 */
+    scrollbar-width: none;  /* 파이어폭스에서 스크롤바 숨기기 */
   }
 
-  .chat-box .chat-other{
+.chat-box::-webkit-scrollbar {
+    display: none;          /* 크롬, 사파리에서 스크롤바 숨기기 */
+  }
+
+.chat-box .chat-other{
     display: flex;
     justify-self: start;
+  }
+
+.chat-box {
+    user-select: none;  /* 드래그할 때 텍스트가 선택되지 않도록 */
   }
 
 .date-divider{
