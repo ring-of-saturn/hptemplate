@@ -24,6 +24,7 @@ ul,li{
     align-items: center;
     background-color: #FAFAFA;
     border-radius: 30px;
+    color: #383838;
 }
 
 .header .player .player-btn{
