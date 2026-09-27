@@ -11,8 +11,10 @@ function App() {
   return(
     <div>
       <Header/>
-      <ProfileCard/>
-      <ChatBox/>
+      <div className="main-row">
+        <ProfileCard/>
+        <ChatBox/>
+      </div>
     </div>
   )
 }

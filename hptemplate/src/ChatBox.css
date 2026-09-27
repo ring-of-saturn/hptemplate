@@ -16,6 +16,11 @@
     justify-self: start;
   }
 
+.date-divider{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
   .chat-box .chat-me{
     display: flex;
     justify-content: end;
@@ -79,4 +84,8 @@
 
 .chat-me .chat-profile {
     order: 2;
+  }
+
+  .date-divider{
+    color: #BEBEBE;
   }
