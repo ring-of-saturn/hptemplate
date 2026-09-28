@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-.menu-btn button{
+.menu-btn button, .menu-btn a{
     width: 34px;
     height: 34px;
     margin-bottom: 14px;
@@ -26,7 +26,15 @@
     cursor: pointer;
 }
 
-.menu-btn button:hover{
+.menu-btn a{
+    padding: 6px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-btn button:hover, .menu-btn a:hover{
     background-color: #F06363;
 
 }

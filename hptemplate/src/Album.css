@@ -1,0 +1,14 @@
+
+
+.album-pin-box{
+    width: 460px;
+    overflow-y: hidden;
+}
+
+.album-pin{
+  width: 460px;
+}
+
+.album-pin img{
+    width: 100%;
+}
