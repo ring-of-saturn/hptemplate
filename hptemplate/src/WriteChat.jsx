@@ -21,7 +21,7 @@ function WriteChat({ onSend }) {
     return (
       <div className="chat-input">
         <img src={activeSender === 'me' ? meImg : otherImg} onClick={toggleSender} className="sender-toggle" alt="전환" />
-        <input
+        <textarea
             type="text"
             value={inputText}
             onChange={(e) => setInputText(e.target.value)}

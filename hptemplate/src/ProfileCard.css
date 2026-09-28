@@ -3,12 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 14px;
 }
 
 .profile-card .profile-img{
-    width: 64px;
-    height: 64px;
-    margin-bottom: 10px;
+    width: 54px;
+    height: 54px;
+    margin-bottom: 8px;
 }
 
 .profile-card img{
@@ -20,14 +21,14 @@
 
 .profile-card .chat-name{
     color: #383838;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
-    line-height: 15px;
+    line-height: 14px;
 }
 
 .profile-card .chat-memo{
     color: #BEBEBE;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 300;
 }
 

@@ -4,8 +4,8 @@
 }
 
 .user-profile img {
-    width: 120px;
-    height: 128px;
+    width: 116px;
+    height: 124px;
     border-radius: 6px;
 }
 
@@ -16,8 +16,8 @@
 }
 
 .menu-btn button{
-    width: 30px;
-    height: 30px;
+    width: 34px;
+    height: 34px;
     margin-bottom: 14px;
     border: none;
     background-color: #fafafa;
@@ -33,5 +33,5 @@
 
 
 .menu-btn img{
-    width: 60%;
+    width: 50%;
 }

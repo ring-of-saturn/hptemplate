@@ -9,16 +9,16 @@ ul,li{
 }
 
 .header{
-    padding: 26px; 
+    padding-top: 32px; 
     display: flex;
     justify-content: space-between;
-    width: 720px;
+    width: 640px;
 }
 
 .header .player{
-    width: 240px;
-    height: 20px;
-    font-size: 11px;
+    width: 160px;
+    height: 16px;
+    font-size: 8px;
     display: flex;
     justify-content: space-between;
     padding: 4px 20px;
@@ -30,7 +30,7 @@ ul,li{
 
 .header .player .player-btn{
     display: flex;
-    gap: 14px;
+    gap: 10px;
 }
 
 .header .player .player-btn button{
@@ -38,10 +38,11 @@ ul,li{
     background: none;
     cursor: pointer;
     padding: 0;
+    display: flex;
 }
 
 .header .player .player-btn img{
-    width: 8px;
+    width: 6px;
 }
 
 .header-icons{
@@ -57,11 +58,11 @@ ul,li{
 }
 
 .header-icons .menu{
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
 }
 
 .header-icons .profile{
-    width: 28px !important;
+    width: 26px !important;
     border-radius: 100%;
 }
