@@ -1,11 +1,10 @@
 import albumData from './albumData.js'
-import './AlbumPin.css'
+import './AlbumGal.css'
 
 
-function AlbumPin(){
+function AlbumGal(){
     return(
         <div className='album-wrap'>
-            <div className='best-pin'>대빵</div>
             <div className='album-box'>
             {albumData.map(photos =>{
             return(
@@ -18,4 +17,4 @@ function AlbumPin(){
         </div>
     )
 }
-export default AlbumPin;
+export default AlbumGal;

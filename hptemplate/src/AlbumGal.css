@@ -10,23 +10,26 @@
 
 .album-box{
     display: flex;
-    width: 640px;
+    width: 450px;
+    height: 320px;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .album-blank{
-    margin: 6px;
-    width: 150px;
+    width: 140px;
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fafafa;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .album-blank img{
-    width: 150px;
+    width: 100%;
     height: auto;
     object-fit:fill;
 }
