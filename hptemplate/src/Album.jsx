@@ -4,9 +4,12 @@ import './Album.css'
 import { useState } from 'react'
 import pinIcon from './assets/i_pin.png'
 
+
 function Album(){
 
     const [ order, setOrder ] = useState('latest')
+
+    
 
 
 
