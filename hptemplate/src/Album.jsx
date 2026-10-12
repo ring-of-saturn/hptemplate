@@ -23,7 +23,7 @@ function Album(){
                 <button className={`btn-oldest ${order === 'oldest' ? 'clicked' : ''}`}
                 onClick={()=>setOrder('oldest')}>OLDEST</button>
             </div>
-            <AlbumGal/>
+            <AlbumGal order={order}/>
         </div>
 
     )

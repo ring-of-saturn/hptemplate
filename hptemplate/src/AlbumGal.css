@@ -4,6 +4,7 @@
     -webkit-user-drag: none;
     user-select: none;
     touch-action: none;
+    overflow: hidden;
 }
 
 .best-pin{
@@ -13,11 +14,19 @@
 
 .album-box{
     display: flex;
-    width: 450px;
+    /* width: 450px; */
     height: 320px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
+    transition: transform 0.4s ease;
+}
+
+.album-page{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   /* 원래 쓰시던 값 그대로 */
+    gap: 16px;                               /* 원래 쓰시던 값 그대로 */
+    flex: 0 0 100%;
 }
 
 .album-blank{
