@@ -6,12 +6,18 @@ import ChatBox from './ChatBox'
 import LeftMenu from './LeftMenu'
 import Footer from './Footer'
 import Album from './Album'
+import BoardCard from './BoardCard'
+import posts from './boardData.js'
 
 function App() {
   const [activeMenu, setActiveMenu] = useState('chat');
   
   const activeAlbum = () =>{
     setActiveMenu('album')
+  }
+
+  const activeBoard = () =>{
+    setActiveMenu('note')
   }
 
 
@@ -28,6 +34,9 @@ function App() {
         )}
         {activeMenu === 'album' &&(
             <Album/>
+        )}
+        {activeMenu === 'note' &&(
+            <BoardCard post={posts[0]}/>
         )}
       </div>
       <Footer/>
