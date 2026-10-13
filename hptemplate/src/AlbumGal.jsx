@@ -47,6 +47,11 @@ function AlbumGal({order}){
             )
             })}
             </div>
+            <div className="album-dots">
+                    {pages.map((pagePhotos,index)=>(
+                        <span key={index} className={`dot ${index === page?'active':''}`}></span>
+                    ))}
+                </div>
         </div>
     )
 }
