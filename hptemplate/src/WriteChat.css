@@ -1,7 +1,7 @@
 .chat-input{
 margin-top: 12px;
  width: 460px;   
- height: 80px;
+ height: 100px;
  display: flex;
  justify-content: space-between;
  background-color: #fafafa;

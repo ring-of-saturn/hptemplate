@@ -15,7 +15,7 @@
 .album-box{
     display: flex;
     /* width: 450px; */
-    height: 320px;
+    height: 300px;
     /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-top: 16px;
+  margin-top: 20px;
 }
 
 .dot {
@@ -45,13 +45,15 @@
 .album-page{
     display: grid;
     grid-template-columns: repeat(3, 1fr);   /* 원래 쓰시던 값 그대로 */
-    gap: 16px;                               /* 원래 쓰시던 값 그대로 */
+    gap: 10px;                               /* 원래 쓰시던 값 그대로 */
     flex: 0 0 100%;
+    padding: 12px;
+    box-sizing: border-box;
 }
 
 .album-blank{
-    width: 140px;
-    height: 150px;
+    /* width: 150px; */
+    height: 140px;
     display: flex;
     justify-content: center;
     align-items: center;

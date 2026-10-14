@@ -7,9 +7,9 @@
     box-sizing: border-box;
     width: 460px;
     height: 600px;
-    background-color: #FAFAFA;
+    background-color: transparent;
     border-radius: 14px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 500;
     overflow-y: auto;       /* 세로로 넘칠 때 스크롤 가능하게 */
     scrollbar-width: none;  /* 파이어폭스에서 스크롤바 숨기기 */

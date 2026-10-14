@@ -1,7 +1,9 @@
 @import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 
 *{
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+
 }
 
 ul,li{
@@ -12,13 +14,13 @@ ul,li{
     padding-top: 32px; 
     display: flex;
     justify-content: space-between;
-    width: 640px;
+    width: 660px;
 }
 
 .header .player{
     width: 160px;
     height: 16px;
-    font-size: 8px;
+    font-size: 9px;
     display: flex;
     justify-content: space-between;
     padding: 4px 20px;
