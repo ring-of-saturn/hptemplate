@@ -7,6 +7,7 @@ import LeftMenu from './LeftMenu'
 import Footer from './Footer'
 import Album from './Album'
 import Board from './Board'
+import WriteModal from './WriteModal'
 
 function App() {
   const [activeMenu, setActiveMenu] = useState('chat');
@@ -19,10 +20,12 @@ function App() {
     setActiveMenu('note')
   }
 
-
+  const [isWriteOpen, setIsWriteOpen] = useState(false);
+  
   return(
     <div className='wrapper'>
-      <Header/>
+      <Header onWrite={()=>setIsWriteOpen(true)}/>
+        {isWriteOpen && <WriteModal onClose={()=>setIsWriteOpen(false)}/>}
       <div className="main-column">
         <LeftMenu onSelect={setActiveMenu}/>
         {activeMenu === 'chat' && (

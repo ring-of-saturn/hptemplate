@@ -14,7 +14,7 @@ import firstStep from './assets/FirstStep.mp3'
 
 // 이미지 등 외부 소스를 사용하려면 경로를 제대로 입력해 가져와 이름을 붙여줘야 한다.
 
-function Header() {
+function Header({onWrite}) {
 
     const [isPlaying, setIsPlaying] = useState(false);
     const audioRef = useRef(null);
@@ -45,7 +45,7 @@ function Header() {
                 </div>
             </div>
             <div className='header-icons'>
-                <button><img className='menu' src={writeIcon}></img></button>
+                <button onClick={onWrite}><img className='menu' src={writeIcon}></img></button>
                  {/* 중괄호를 쓴 것은 jsx 안에서 이건 그냥 텍스트가 아니라 자바스크립트 변수라는 것을 알려주는 표시. import로 가져온 이미지 경로가 담긴 것을 그대로 넣어주는 것. */}
                 <button><img className='menu' src={settingIcon}></img></button>
                 <button><img className='profile' src={profileIcon}></img></button>
